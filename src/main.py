@@ -1,4 +1,5 @@
 import discogs_client
+from discogs_client import exceptions
 from config import token
 import time
 
