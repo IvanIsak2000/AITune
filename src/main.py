@@ -1,8 +1,6 @@
-import time
-
 import discogs_client
 from config import token
-from time import sleep
+import time
 
 d = discogs_client.Client('ExampleApplication/0.1', user_token=token)
 
