@@ -13,12 +13,10 @@ https://www.figma.com/file/Fc8ElhQBpaPcGh3RhxgcoM/Untitled?type=design&node-id=1
 4. Change dir: `cd src`
    
 5. Train model:
-   
 ```bash
 yolo task=classify mode=train model=yolov8s-cls.pt data=datasets/flowers epochs=10 imgsz=600
 ```
 6. Start model:
-   
 ```bash
 python3 start_model.py 1.jpeg
 ```
