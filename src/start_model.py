@@ -9,4 +9,8 @@ im1 = Image.open(sys.argv[1])
 
 results = model(im1)
 
-print(results)
+for r in results:
+    im_array = r.plot()  
+    im = Image.fromarray(im_array[..., ::-1])  
+    im.show()  
+    # im.save('results.jpg')  
