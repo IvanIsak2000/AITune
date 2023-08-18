@@ -7,3 +7,9 @@ https://www.figma.com/file/Fc8ElhQBpaPcGh3RhxgcoM/Untitled?type=design&node-id=1
 1. Clone repo
 2. Install [flowers dataset](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition/download?datasetVersionNumber=2) in `src` folder
 3. Install `requirements.txt`
+4. Change dir: `cd src`
+5. Start model:
+   
+```bash
+python3 start_model.py 1.jpeg
+```
