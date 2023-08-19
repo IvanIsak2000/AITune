@@ -57,3 +57,10 @@ yolo task=classify mode=train model=yolov8s-cls.pt data=datasets/flowers epochs=
 ```bash
 python3 start_model.py 1.jpeg
 ```
+
+# Result
+If all done you get result:
+
+![image](https://github.com/IvanIsak2000/AITune/assets/79650307/f993b938-a7f0-444c-8c50-045bf7b720b1)
+
+
