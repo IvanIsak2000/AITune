@@ -17,12 +17,30 @@ git clone https://github.com/IvanIsak2000/AITune.git
 pip install -r requirements.txt
 ```
 
-4. Change folder:
+# Run
+Before train check project structure:
+> Note:
+> Project structure show MAIN files to correct train and check model
+>
+``` 
+
+├── src                     # root folder
+│   └── datasets            # dataset for `yolo8` which separetad on 2 folders
+|       └── flowers
+|            ├── train      # train images folder: ~4222 files by 5 subfolders
+|            └── test       # test images folder: by 20 images in each
+│   ├── start_model.py      # main file to check model 
+|   ├── 1.jpeg              # new image not from datasets to mdel test
+│   └── 2.jpeg              # new image not from datasets to mdel test   
+└── 
+```
+
+1. Change folder:
 ```bash
 cd src
 ```
 
-5. Train model:
+2. Train model:
 
 >   <picture>
 >   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Mqxx/GitHub-Markdown/blob/main/blockquotes/badge/light-theme/warning.svg">
@@ -35,8 +53,7 @@ yolo task=classify mode=train model=yolov8s-cls.pt data=datasets/flowers epochs=
 ```
 > For better result you can add epochs, but the training process will be longer.
 
-
-6. Start model:
+3. Start model:
 ```bash
 python3 start_model.py 1.jpeg
 ```
