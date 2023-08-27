@@ -18,6 +18,12 @@ pip install -r requirements.txt
 ```
 
 # Run
+
+## Command arguments:
+>```bash
+>python3 start_model.py <path to img: recommended as image_1.png> <model name:  default colab_model.pt>
+>```
+
 Before train check project structure:
 > Note:
 > Project structure show MAIN files to correct train and check model
