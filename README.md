@@ -76,6 +76,9 @@ python3 start_model.py 1.jpeg
 # Result
 If all done you get result:
 
-![image](https://github.com/IvanIsak2000/AITune/assets/79650307/f993b938-a7f0-444c-8c50-045bf7b720b1)
+![image](https://github.com/IvanIsak2000/AITune/assets/79650307/b542a354-b335-41cf-a40f-faba09f8139e)
+
+
+
 
 
